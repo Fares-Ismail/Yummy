@@ -1,0 +1,57 @@
+
+body {
+    background-color: #0d0d0d;
+    color: #f9f6f6 !important;
+    overflow: hidden;
+}
+
+.side-nav-panel {
+    background-color: #0d0d0d;
+}
+
+.site-logo {
+    width: 50px;
+}
+
+i {
+    cursor: pointer;
+}
+
+.meal-overlay {
+    background-color: #f9f6f6ca;
+    transition: 0.5s;
+    height: 100%;
+    width: 100%;
+    top: 100%;
+}
+
+.meal-card:hover .meal-overlay {
+    top: 0;
+}
+
+.side-nav {
+    transition: 0.5s;
+    position: fixed;
+    left: -260px;
+    z-index: 99;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.alert {
+    width: fit-content;
+}
+
+.page-loader {
+    z-index: 999;
+    display: flex;
+}
+
+.content-loader {
+    background-color: #0d0d0d;
+    position: absolute;
+    display: flex;
+    z-index: 9;
+}
