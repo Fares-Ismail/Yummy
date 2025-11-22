@@ -5,6 +5,11 @@ body {
     overflow: hidden;
 }
 
+body.dark-mode{
+  background-color: grey;
+  transition: 0.7s;
+}
+
 .side-nav-panel {
     background-color: #0d0d0d;
 }
